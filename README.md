@@ -14,10 +14,17 @@
   
 ### Analysis of Outcomes Based on Goals
 
-  To complete this part of the analysis I created a table with the columns displaying the number of successful, failed, and canceled Kickstarters campaigns as a number and as a percentage. The rows in the table represent ranges of goals for the campaigns. To get the correct data I used COUNTIFS formulas to pull data from the Kickstarter data sheet flitering based on the goal range, the outcome of the campaign and the Subcategory plays. An example of the formulas used are below.. 
+  To complete this part of the analysis I created a table with the columns displaying the number of successful, failed, and canceled Kickstarters campaigns as a number and as a percentage. The rows in the table represent ranges of goals for the campaigns. To get the correct data I used COUNTIFS formulas to pull data from the Kickstarter data sheet flitering based on the goal range outlined in the rows, the outcome of the campaign and the Subcategory, plays. An example of the formulas used are below.. 
+  
    1. Number Successful: `=COUNTIFS(KickStarter!D:D,"<1000", KickStarter!F:F, "Successful", KickStarter!O:O, "plays")`
    2. Number Failed: `=COUNTIFS(KickStarter!$D:$D,">=10000", KickStarter!$D:$D,"<=14999", KickStarter!$F:$F, "failed", KickStarter!$O:$O, "plays")`
    3. Number Canceled: `=COUNTIFS(KickStarter!$D:$D,">=1000",KickStarter!$D:$D,"<=4999",KickStarter!$F:$F,"canceled, KickStarter!$O:$O, ""plays")`
+
+  I used the data from those formulas to calculate the total projects and the percentages for the successful, failed and canceled kickstarters. The totals of those 3 categories are each divided by the total number of projects based on the goal range. An example of the formulas used are below: 
+  
+    1. Percent Successful:`=IFERROR((B2/E2),0)` 
+    2. Percent Failed: `=IFERROR((C2/$E$2),0)`
+    3. Percent Canceled: `=IFERROR((D2/$E$2),0)`
 
   
   ![Outcomes Based on Goal](https://github.com/ericajini/kickstarter-analysis/blob/main/reference2.png)
