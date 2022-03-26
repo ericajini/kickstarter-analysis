@@ -44,15 +44,15 @@
 2. The least successful Theater Campaigns happen in November, but there are consistently more successful Theater Campaigns than failed Theater Campaigns month over month. 
 
 ### What can you conclude about the Outcomes based on Goals?
-( <br> )
+
   I think the most important point to make is that Theater Campaigns for plays are most successful when the goal is less than $1000.00 at close to 76 %. There is a downward trend from there for the most part outside of a spike above 60% between $35,000.00 and $44,999.00. Beyond that the success rate drops very quickly and the failure rate shoots up, even to 100% at one point.  
 
 ### What are some limitations of this dataset?
-( <br> )
+
   In the Outcomes Based on Goals sheet we are filtering by the Sub-Category, plays, but in the Theater Outcomes by Launch Date sheet we are only filtering by the Parent Category, theater. I think this could slightly change the results for the Theater Outcomes by Launch Date if we updated it to plays, but still think the outcome would remain generally the same since the plays Sub-Category is factored into the Parent Category, theater.
   
   Also, In the Outcomes Based on Goals sheet, the data tends to be showing that as the goal goes up, the failure rate goes up, that is until around $35,000.00 to $44,999.00. There is not enough info based on that table/ chart to determine what other factors are impacting that change like if those campaigns happened to launch in May, where we seen that the success rates are higher. 
 
 ### What are some other possible tables and/or graphs that we could create?
-( <br> )
-  Related to what I mentioned about, I think we could also use bar graph with the goal ranges from the Outcomes Based on Goals sheet on the y-axis and 
+
+  Related to what I mentioned above, I think we could also use a bar graph with the percentages on the y-axis and the months of the year on the x x-axis. I think 
