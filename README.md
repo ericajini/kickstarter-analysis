@@ -22,6 +22,8 @@ I completed an analysis on different Kickstarter campaigns related to theater to
 
 2. The least successful Theater Campaigns happen in November, but there are consistently more successful Theater Campaigns than failed Theater Campaigns month over month. 
 
+![Failed Theater Campaigns](https://github.com/ericajini/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+
 - What can you conclude about the Outcomes based on Goals?
 
 Theater Campaigns for plays are most successful when the goal is less than $1000.00. 
