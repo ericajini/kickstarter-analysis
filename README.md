@@ -33,7 +33,7 @@
 
 ### Challenges and Difficulties Encountered
   
-  During this analysis I had the most difficulty creating the formulas, specifically the COUNTIFS formulas. There was a lot involved with creating the initial formula to use and I ended up using the wrong range of rows to start causing some confusion when it came to the chart because it was not matching the module.
+  During this analysis I had the most difficulty creating the formulas, specifically the COUNTIFS formulas. There was a lot involved with creating the initial formula to use and I ended up using the range of rows for pledged amount instead of using the range of rows for goal, which led to some confusion when it came to the chart because it was not matching the module. I think it was also a little difficult to get only the months of the year to show up in the Theater Outcomes by Launch Date sheet pivot. 
 
 ## Results
 
@@ -45,14 +45,16 @@
 
 ### What can you conclude about the Outcomes based on Goals?
 
-  I think the most important point to make is that Theater Campaigns for plays are most successful when the goal is less than $1000.00 at close to 76 %. There is a downward trend from there for the most part outside of a spike above 60% between $35,000.00 and $44,999.00. Beyond that the success rate drops very quickly and the failure rate shoots up, even to 100% at one point.  
+  I think the most important point to make is that Theater Campaigns for plays are most successful when the goal is less than $1000.00 at close to 76 %. There is a downward trend from there for the most part outside of a spike above 60% between $35,000.00 and $44,999.00. Beyond that the success rate drops very quickly and the failure rate shoots up, even to 100% at one point. Also for the plays Sub-category, there were no canceled Kickstarters. 
 
 ### What are some limitations of this dataset?
 
   In the Outcomes Based on Goals sheet we are filtering by the Sub-Category, plays, but in the Theater Outcomes by Launch Date sheet we are only filtering by the Parent Category, theater. I think this could slightly change the results for the Theater Outcomes by Launch Date if we updated it to plays, but still think the outcome would remain generally the same since the plays Sub-Category is factored into the Parent Category, theater.
   
-  Also, In the Outcomes Based on Goals sheet, the data tends to be showing that as the goal goes up, the failure rate goes up, that is until around $35,000.00 to $44,999.00. There is not enough info based on that table/ chart to determine what other factors are impacting that change like if those campaigns happened to launch in May, where we seen that the success rates are higher. 
+   Another limitation of this data set is that some of the data being used to come to these conclusions are from 2009, so 13 years ago. If this is a play Lousie is looking to do in 2022, we may consider only the last 2-3 years of data to be revelant so that we are able to focus on more recent trends and things revelant to pop culture that could have a better chance of succeeding since it's what people are looking for at that time.   
+  
+  Also, In the Outcomes Based on Goals sheet, the data tends to be showing that as the goal goes up, the failure rate goes up, that is until around $35,000.00 to $44,999.00. There is not enough info based on that table/ chart to determine what other factors are impacting that change like if those campaigns happened to launch in May, where we seen that the success rates are higher, or if the play is a specific genre causing it to gain traction. 
 
 ### What are some other possible tables and/or graphs that we could create?
 
-  Related to what I mentioned above, I think we could also use a bar graph with the percentages on the y-axis and the months of the year on the x x-axis. I think 
+  Related to what I mentioned above, I think we could also use a stacked bar graph with the ranges from the Outcomes Based on Goals sheet on the y-axis and the months of the year on the x x-axis. I think this could be used to see if the launch date may have a difference on the goals at the higher amounts and if you could maybe be more successful if you launched a campaign with a goal between $35,000.00 to $44,999.00 in like May. I think we could also do another stacked bar graph but replace the x-axis with Country so we can see if depending on the Country the campagin is launched in, does that have an impact on the goals at higher amounts. I also think it would be interesting to define the genres more and use this info to see if plays are more successful when taking into account seasonal changes (for example, does a kickstarter campaign for a play about "love" have better success if it was launched in Feburary around Valentines day?). 
