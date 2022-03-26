@@ -12,8 +12,6 @@
   
   ![Outcomes Based on Launch Date Pivot]
   
-  ![PivotChartBasedonLaunch](https://github.com/ericajini/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png}
-
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
