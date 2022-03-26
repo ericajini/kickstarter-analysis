@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-  Louise wants to compare different Kickstarter campaigns to have a better understanding of how to approach a campaign for her play fever. I completed an analysis on different Kickstarter campaigns related to theater to explain the different outcomes based on Launch Date and the Goal. This analyis includes a combination of formulas, pivot tables, and pivot charts to represent the data for the outcomes mentioned above.  
+  Louise wants to compare different Kickstarter campaigns to have a better understanding of how to approach a campaign for her play fever. I completed an analysis on different Kickstarter campaigns related to theater to explain the different outcomes based on Launch Date and the Goal. This analyis includes a combination of formulas, pivot tables, and pivot charts to represent the data for the outcomes mentioned above. 
 
 ## Analysis and Challenges
 
