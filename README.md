@@ -18,7 +18,7 @@ I completed an analysis on different Kickstarter campaigns related to theater to
 
 1. The most successful Theater Campaigns happen in May and trend downward for the rest of year, outside of a minor increase in October.
 
-![Successful Theater Campaigns](
+![Successful Theater Campaigns](https://github.com/ericajini/kickstarter-analysis/blob/main/Successful_Launch%20Date.png)
 
 2. The least successful Theater Campaigns happen in November, but there are consistently more successful Theater Campaigns than failed Theater Campaigns month over month. 
 
