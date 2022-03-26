@@ -8,14 +8,18 @@
 
 ### Analysis of Outcomes Based on Launch Date
 
-  To complete this part of the analysis I created a pivot table from the Kickstarter data sheet using Successful, Failed and Canceled as the columns and the months of the year as the rows. The graph shows how many Kickstarters fall in each category month over month. There is also a filter set for the Parent Category to be theater so we are only showing the data that is related to the play Louise is working on, and a filter for Years if the data needs to be broken down further. This pivot table was used to create the pivot chart to help visualize what the data is telling. 
+  To complete this part of the analysis I created a pivot table from the Kickstarter data sheet using Successful, Failed and Canceled columns and the months of the year as the rows. The table shows how many Kickstarters fall in each category month over month. There is also a filter set for the Parent Category to be theater so we are only showing the data that is related to the play Louise is working on, and a filter for Years if the data needs to be broken down further. This pivot table was used to create the pivot chart to help visualize what the data is telling. In the pivot chart the x-axis represents the months and the y-axis represents the number of outcomes. This makes it easier to see how the kickstarters are trending over time. 
   
   ![Outcomes Based on Launch Date](https://github.com/ericajini/kickstarter-analysis/blob/main/reference1.png)
   
 ### Analysis of Outcomes Based on Goals
 
-![Test]("C:\Users\erica\Desktop\Analysis Projects\Crowdfunding Analysis\resources\Outcomes_vs_Goals.png")
+  To complete this part of the analysis I created a table with the columns displaying the number of successful, failed, and canceled Kickstarters campaigns as a number and as a percentage. The rows in the table represent ranges of goals for the campaigns. To get the correct data I used COUNTIFS formulas to pull data from the Kickstarter data sheet flitering based on the goal range, the outcome of the campaign and the Subcategory plays. An example of the formulas used are below.. 
+   1. Number Successful: `=COUNTIFS(KickStarter!D:D,"<1000", KickStarter!F:F, "Successful", KickStarter!O:O, "plays")`
+   2. Number Failed: `=COUNTIFS(KickStarter!$D:$D,">=10000", KickStarter!$D:$D,"<=14999", KickStarter!$F:$F, "failed", KickStarter!$O:$O, "plays")`
+   3. Number Canceled: `=COUNTIFS(KickStarter!$D:$D,">=1000",KickStarter!$D:$D,"<=4999",KickStarter!$F:$F,"canceled, KickStarter!$O:$O, ""plays")`
 
+  
   ![Outcomes Based on Goal](https://github.com/ericajini/kickstarter-analysis/blob/main/reference2.png)
 
 ### Challenges and Difficulties Encountered
