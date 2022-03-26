@@ -53,3 +53,4 @@
   Also, In the Outcomes Based on Goals sheet, the data tends to be showing that as the goal goes up, the failure rate goes up, that is until around $35,000.00 to $44,999.00. There is not enough info based on that table/ chart to determine what other factors are impacting that change like if those campaigns happened to launch in May, where we seen that the success rates are higher. 
 
 ### What are some other possible tables and/or graphs that we could create?
+  Related to what I mentioned about, I think we could also use bar graph with the goal ranges from the Outcomes Based on Goals sheet on the y-axis and 
