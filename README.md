@@ -10,7 +10,7 @@
 
   To complete this part of the analysis I created a pivot table from the Kickstarter data sheet using Successful, Failed and Canceled columns and the months of the year as the rows. The table shows how many Kickstarters fall in each category month over month. There is also a filter set for the Parent Category to be theater so we are only showing the data that is related to the play Louise is working on, and a filter for Years if the data needs to be broken down further. This pivot table was used to create a line pivot chart to help visualize what the data is telling. In the pivot chart the x-axis represents the months, the y-axis represents the number of outcomes and the lines are a different color for successful, failed and canceled. This makes it easier to see how the kickstarters are trending over time. 
   
-  ![Outcomes Based on Launch Date](https://github.com/ericajini/kickstarter-analysis/blob/main/reference1.png)
+  ![Outcomes Based on Launch Date](https://github.com/ericajini/kickstarter-analysis/blob/main/reference1.1.png)
   
 ### Analysis of Outcomes Based on Goals
 
