@@ -27,7 +27,7 @@
     Percent Failed: `=IFERROR((C2/$E$2),0)`
     Percent Canceled: `=IFERROR((D2/$E$2),0)`
 
-  This table was also used to create a pivot chart to help visualize what the data is telling. The x-axis represents the ranges of goals while the y-axis represents the percentage, and the lines are different colors to represent the successful, failed and canceled kickstarter campaigns. This makes it easier to see what goal range kickstarters are more successful in.  
+  This table was also used to create a pivot chart to help visualize what the data is telling. The x-axis represents the ranges of goals while the y-axis represents the percentage, and the lines are different colors to represent the successful, failed and canceled kickstarter campaigns. This makes it easier to see the goal range where kickstarters are more successful.  
   
   ![Outcomes Based on Goal](https://github.com/ericajini/kickstarter-analysis/blob/main/reference2.png)
 
