@@ -26,7 +26,7 @@
 
 2. The least successful Theater Campaigns happen in November, but there are consistently more successful Theater Campaigns than failed Theater Campaigns month over month. 
 
-![Failed Theater Campaigns](https://github.com/ericajini/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![Successful Vs Failed Theater Campaigns](https://github.com/ericajini/kickstarter-analysis/blob/main/successful%20vs%20failed%20only.png)
 
 - What can you conclude about the Outcomes based on Goals?
 
